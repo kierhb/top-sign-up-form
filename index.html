@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Maven+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <title>Project: Sign-Up Form</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="side--hero">
+                <div class="title--bar">
+                    <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="The Odin Project Logo">
+                    <div>
+                        <h1>The Odin Project</h1>
+                        <h3>Sign-up Form</h3>
+                    </div>
+                </div>
+                <div id="coded-by">Coded by <a href="https://github.com/kierhb" target="_blank">Kier Bobila</a>.</div>
+            </div>
+            <div class="input--container">
+                <div class="intro--container">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize you deepest dreams. Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+
+                <form class="form--container">
+                    <legend>Let's do this!</legend>
+                    <fieldset>
+                        <label for="first-name">
+                            FIRST NAME
+                            <input type="text" id="first-name" name="first-name" required>
+                        </label>
+
+                        <label for="last-name">
+                            LAST NAME
+                            <input type="text" id="last-name" name="last-name" required>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">
+                            EMAIL
+                            <input type="email" id="email" name="email" required>
+                        </label>
+
+                        <label for="phone-number">
+                            PHONE NUMBER
+                            <input type="tel" id="phone-number" name="phone-number" required>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">
+                            PASSWORD
+                            <input type="password" id="password" name="password" required>
+                        </label>
+
+                        <label for="confirm-password">
+                            CONFIRM PASSWORD
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </label>
+                    </fieldset>               
+                </form>
+
+                <div class="submit--container">
+                    <button type="submit" id="submit-btn">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
